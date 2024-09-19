@@ -14,13 +14,13 @@
 </template>
 <script setup>
 const newList = [
-  { name: '懒人小沙发', list_pic_url: '/images/new1.jpg', retail_price: '128.00' },
+  { name: '玛莎拉蒂车模', list_pic_url: '/images/new1.jpg', retail_price: '128.00' },
   {
-    name: '减压弹力球', list_pic_url: '/images/new2.jpg', retail_price: '89.00' },
-  {name: '简约一字夹发夹', list_pic_url: '/images/new3.jpg', retail_price:'12.8'
+    name: '奔驰汽车车模', list_pic_url: '/images/new2.jpg', retail_price: '89.00' },
+  {name: '法拉利车模', list_pic_url: '/images/new3.jpg', retail_price:'321'
  },
   {
-    name: '毛线小兔子耳朵发夹', list_pic_url: '/images/new4.jpg', retail_price: '9.9'
+    name: '天暗星', list_pic_url: '/images/new4.jpg', retail_price: '400'
   }
 ]
 </script>
@@ -52,6 +52,7 @@ const newList = [
 
       img {
         width: 100%;
+        height: 80%;
       }
 
       p {

@@ -28,6 +28,7 @@ const brandList = [
 
     img {
       width: 100%;
+      height: 80%;
     }
 
     h4 {
