@@ -37,6 +37,43 @@ const router = createRouter({
       name: "user",
       meta: { title: "我的", isTab: true },
     },
+    {
+      path: "/goodslist/:category_id",
+      component: () => import("../pages/GoodsList.vue"),
+      props: true,
+      name: "goodslist",
+      meta: {
+        title: "商品列表",
+        isTab: true,
+        isShowNav: true,
+        isShowBack: true,
+      },
+    },
+    {
+      path: "/goodsDetail/:id",
+      component: () => import("../pages/GoodsDetail.vue"),
+      props: true,
+      name: "goodsDetail",
+      meta: {
+        title: "商品详情",
+        isTab: false,
+        isShowNav: true,
+        isShowBack: true,
+      },
+    },
+    {
+      path: "/login",
+      component: () => import("../pages/Login.vue"),
+      name: "login",
+      meta: { title: "登录", isTab: true, isShowNav: true, isShowBack: true },
+    },
+    { 
+      path: '/register', 
+      component: () => import('../pages/Register.vue'), 
+      name: 'register', 
+      meta: { title: '注册', isTab: true, isShowNav: true, isShowBack: true
+     }
+    }
   ],
 });
 router.beforeEach((to, from, next) => {
@@ -46,4 +83,5 @@ router.beforeEach((to, from, next) => {
   }
   next();
 });
+
 export default router;

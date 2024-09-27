@@ -12,42 +12,41 @@
 <script setup>
 const goodsList = [
   {
-    retail_price: '299.00',
-    name: '蚕丝被 正品桑蚕丝',
-    goods_brief: '一级桑蚕丝，轻盈、透气、柔软',
+    retail_price: '99.00',
+    name: '零食大礼包',
+    goods_brief: '内有不同口味零食，满足你的味蕾',
     list_pic_url: '/images/top1.jpg',
     tag: 'TOP1'
   },
   {
-    retail_price: '88.00',
-    origin_price: '98.00',
-    name: '儿童摇摇马',
-    goods_brief: '安全、不会侧翻、爸妈放心',
+    retail_price: '28.00',
+    origin_price: '58.00',
+    name: '巧克力礼盒',
+    goods_brief: '高品质巧克力，心意满满',
     list_pic_url: '/images/top2.jpg',
     tag: 'TOP2'
   },
   {
-    retail_price: '128.00',
-    origin_price: '168.00',
-    name: '可躺可睡休闲懒人沙发',
-    goods_brief: '轻松看书、社交、办公、舒适放松',
+    retail_price: '10',
+    origin_price: '13',
+    name: '素牛肉干',
+    goods_brief: '无添加剂，健康美味',
     list_pic_url: '/images/top3.jpg',
     tag: 'TOP3'
   },
   {
-    retail_price: '199.00',
-    origin_price: '205.00',
-    name: '儿童积木 拼装玩具',
-    goods_brief: '大颗粒 家长更放心 不易吞咽、安全性高',
+    retail_price: '15.00',
+    origin_price: '20.00',
+    name: '每日坚果&&3袋',
+    goods_brief: '每日补充营养，健康生活',
     list_pic_url: '/images/top4.jpg',
     tag: 'TOP4'
   },
   {
-    retail_price: '89.00',
-
-    origin_price: '99.00',
-    name: '扭扭车 1——3 岁男女宝宝',
-    goods_brief: '儿童扭扭车万向轮 防侧翻大人新款摇摆扭扭车',
+    retail_price: '5.00',
+    origin_price: '6.00',
+    name: '麻辣',
+    goods_brief: '麻辣鲜香，让你回味无穷',
     list_pic_url: '/images/top5.jpg',
     tag: 'TOP5'
   }
