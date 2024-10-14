@@ -67,13 +67,12 @@ const router = createRouter({
       name: "login",
       meta: { title: "登录", isTab: true, isShowNav: true, isShowBack: true },
     },
-    { 
-      path: '/register', 
-      component: () => import('../pages/Register.vue'), 
-      name: 'register', 
-      meta: { title: '注册', isTab: true, isShowNav: true, isShowBack: true
-     }
-    }
+    {
+      path: "/register",
+      component: () => import("../pages/Register.vue"),
+      name: "register",
+      meta: { title: "注册", isTab: true, isShowNav: true, isShowBack: true },
+    },
   ],
 });
 router.beforeEach((to, from, next) => {

@@ -34,7 +34,6 @@
 
 import { onMounted, watch, nextTick, ref, computed } from 'vue'
 import { getCategoryList } from '../api'
-
 import BScroll from '@better-scroll/core'
 
 const menus = ref([])
