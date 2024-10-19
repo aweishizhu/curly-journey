@@ -10,10 +10,10 @@
 </template>
 <script setup>
 const brandList = [
-  { id: 1, name: '直播', pic_url: '/images/product1.webp' },
-  { id: 2, name: '推荐', pic_url: '/images/product2.webp' },
-  { id: 3, name: '补贴', pic_url: '/images/pro2.jpg' },
-  { id: 4, name: '分享', pic_url: '/images/pro3.webp' },
+  { id: 1, name: '直播', pic_url: '/images/pro1.jpg' },
+  { id: 2, name: '推荐', pic_url: '/images/pro2.jpg' },
+  { id: 3, name: '补贴', pic_url: '/images/pro3.jpg' },
+  { id: 4, name: '分享', pic_url: '/images/pro4.jpg' },
 ]
 </script>
 <style lang="less" scoped>

@@ -29,7 +29,7 @@
     <van-cell-group class="goods-cell-group">
       <van-cell>
         <template #title>
-          <span class="van-cell-text">发货　陕西宝鸡</span>
+          <span class="van-cell-text">发货　{{ goods.situs }}</span>
         </template>
       </van-cell>
       <van-cell>
@@ -39,7 +39,7 @@
       </van-cell>
       <van-cell>
         <template #title>
-          <span class="van-cell-text">参数　品牌：枝纯　价格：100-200</span>
+          <span class="van-cell-text">参数　品牌：枝纯　价格：{{ goods.price }}</span>
         </template>
       </van-cell>
     </van-cell-group>

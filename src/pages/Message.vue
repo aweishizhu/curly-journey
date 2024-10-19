@@ -8,27 +8,27 @@
 const lists = [
   {
     img: '/images/avatar1.jpg',
-    title: '年货旗舰店',
+    title: '小米旗舰店',
     value: '星期一',
-    label: "您有一条店铺消息"
+    label: "你好，我是小米官方客服，有什么可以帮助你的吗？"
   },
   {
     img: '/images/avatar2.jpg',
-    title: '狗熊岭旗舰店',
+    title: 'vivo官方旗舰店',
     value: '星期二',
-    label: "亲爱的果粉："
+    label: "你好，我是vivo官方客服，有什么可以帮助你的吗？"
   },
   {
-    img: '/images/avatar3.png',
-    title: '订阅号消息',
+    img: '/images/avatar3.jpg',
+    title: '法拉利官方旗舰店',
     value: '星期日',
-    label: "水果旗舰店：【新到水果新品————粑粑柑、砂糖橘】"
+    label: "你好，我是法拉利官方客服，有什么可以帮助你的吗？"
   },
   {
-    img: '/images/avatar4.png',
-    title: '消息号内容',
+    img: '/images/avatar4.jpg',
+    title: '兰博基尼官方旗舰店',
     value: '星期一',
-    label: "食品旗舰店：大量新品到货，速来选购"
+    label: "你好，我是兰博基尼官方客服，有什么可以帮助你的吗？"
   }
 ]
 </script>

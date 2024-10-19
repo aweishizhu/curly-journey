@@ -35,8 +35,8 @@ watch(
   color: #2c3e50;
   line-height: 24px;
 
---van-nav-bar-background: #ff8000;
- --van-nav-bar-title-text-color: #fff;
+--van-nav-bar-background: #ae10e7;
+ --van-nav-bar-title-text-color: #13ceeb;
  --van-nav-bar-icon-color: #fff;
 }
 </style>

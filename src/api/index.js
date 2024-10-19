@@ -28,3 +28,7 @@ export function login(data) {
 export function getUser() {
   return request.get('/home/user')
 }
+//购物车接口
+export function getCartList(params) {
+  return request.get('/home/goods/cart', { params })
+}

@@ -45,7 +45,7 @@ const loadGoodList = async () => {
     last_id = data[data.length - 1].id
   } else if (goodsList.value.length > 0) {
     showToast({
-      message: '已经到达底部',
+      message: '没有更多了',
       type: 'fail'
     })
     is_last.value = true

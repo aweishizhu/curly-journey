@@ -20,7 +20,7 @@ const newList = [
   {name: '法拉利车模', list_pic_url: '/images/new3.jpg', retail_price:'321'
  },
   {
-    name: '天暗星', list_pic_url: '/images/new4.jpg', retail_price: '400'
+    name: '法拉利车模', list_pic_url: '/images/new4.jpg', retail_price: '400'
   }
 ]
 </script>
