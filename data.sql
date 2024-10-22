@@ -11,7 +11,7 @@
  Target Server Version : 80039 (8.0.39)
  File Encoding         : 65001
 
- Date: 19/10/2024 09:02:58
+ Date: 21/10/2024 16:51:43
 */
 
 SET NAMES utf8mb4;
@@ -117,7 +117,7 @@ INSERT INTO `vueshop_goods` VALUES (6, 7, 'Redmi K70', 2199.00, 'static/image/go
 INSERT INTO `vueshop_goods` VALUES (7, 7, 'Xiaomi 14', 3900.00, 'static/image/goods/7/7.png', 500, '12GB+256GB', '徕卡光学Summilux镜头,光影猎人900影像传感器, 75mm徕卡浮动长焦,小米澎湃OS ,第三代骁龙®8移动平台。', '江西南昌');
 INSERT INTO `vueshop_goods` VALUES (8, 7, 'Xiaomi 14 Pro', 4599.00, 'static/image/goods/7/8.png', 500, '12GB+256GB', '徕卡光学Summilux镜头,光影猎人900影像传感器, 75mm徕卡浮动长焦,小米澎湃OS ,第三代骁龙®8移动平台。', '河北保定');
 INSERT INTO `vueshop_goods` VALUES (9, 7, 'xiaomi 14 Ultra', 5999.00, 'static/image/goods/7/9.png', 500, '12GB+256GB', '徕卡光学Summilux镜头,光影猎人900影像传感器, 75mm徕卡浮动长焦,小米澎湃OS ,第三代骁龙®8移动平台。', '安徽合肥');
-INSERT INTO `vueshop_goods` VALUES (10, 7, '小米13', 3999.00, 'static/image/goods/7/10.png', 500, '12GB+256GB', '<div>\r\n<div>科技不是高高在上，而是服务于人类。</div>\r\n<div>< img src=\"http://127.0.0.1:8360/static/image/goods/detail/1.png\" alt=\"商品详情1\" width=\"1280\" height=\"1982\">< img src=\"http://127.0.0.1:8360/static/image/goods/detail/2.png\" alt=\"商品详情2\" width=\"1280\" height=\"1712\">< img src=\"http://127.0.0.1:8360/static/image/goods/detail/3.png\" alt=\"商品详情3\" width=\"1280\" height=\"1982\"></div>\r\n</div>', '山东烟台');
+INSERT INTO `vueshop_goods` VALUES (10, 7, '小米13', 3999.00, 'static/image/goods/7/10.png', 500, '12GB+256GB', '<div>\r\n<div>科技不是高高在上，而是服务于老百姓</div>\r\n<div><img src=\"http://127.0.0.1:8360/static/image/goods/7/10.png\" \r\nalt=\"商品详情1\" width=\"1280\" height=\"1982\"><img src=\"http://127.0.0.1:8360/static/image/goods/detail/1.jpg\" \r\nalt=\"商品详情2\" width=\"1280\" height=\"1982\"><img src=\"http://127.0.0.1:8360/static/image/goods/detail/2.jpg\"\r\nalt=\"商品详情3\" width=\"1280\" height=\"1982\"><img src=\"http://127.0.0.1:8360/static/image/goods/detail/3.jpg\"\r\n</div>', '山东烟台');
 INSERT INTO `vueshop_goods` VALUES (11, 2, 'xiaomi13', 3999.00, 'static/image/goods/2/1.webp', 500, '12GB+256GB', '全新骁龙888，突破性的 5 纳米芯片工艺，\r\n性能、渲染、AI 算力突飞猛进。', '河南开封');
 INSERT INTO `vueshop_goods` VALUES (12, 2, 'xiaomi13', 3599.00, 'static/image/goods/2/1.webp', 500, '6GB+128GB', '全新骁龙888，突破性的 5 纳米芯片工艺，\r\n性能、渲染、AI 算力突飞猛进。', '上海市');
 INSERT INTO `vueshop_goods` VALUES (13, 3, 'xiaomi 12', 3900.00, 'static/image/goods/3/1.jpg', 500, '12GB+256GB', '全新一代骁龙8 移动平台 / 动态性能调度\r\nWiFi 6 增强版 + LPDDR5 满血版 + UFS 3.1\r\n2600mm²超大 VC 液冷散热+超大石墨+白色石墨烯\r\n4500mAh 大电量\r\n67W 有线秒充 / 50W 无线秒充 / 10W 无线反充\r\n5000万 疾速影像 / CyberFocus万物追焦\r\n3200万 前置高清镜头 / 原生美肌人像\r\n6.28″超视感屏 / 120Hz高刷 / 419PPI\r\n哈曼卡顿联合调教 对称式立', '北京');
@@ -187,8 +187,8 @@ CREATE TABLE `vueshop_goods_album`  (
 -- ----------------------------
 INSERT INTO `vueshop_goods_album` VALUES (1, 10, 'static/image/goods/album/1.png');
 INSERT INTO `vueshop_goods_album` VALUES (2, 10, 'static/image/goods/album/2.png');
-INSERT INTO `vueshop_goods_album` VALUES (3, 7, 'static/image/goods/7.png');
-INSERT INTO `vueshop_goods_album` VALUES (4, 7, 'static/image/goods/8.png');
+INSERT INTO `vueshop_goods_album` VALUES (3, 7, 'static/image/goods/7/7.png');
+INSERT INTO `vueshop_goods_album` VALUES (4, 7, 'static/image/goods/7/8.png');
 
 -- ----------------------------
 -- Table structure for vueshop_user
