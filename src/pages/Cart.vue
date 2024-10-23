@@ -40,7 +40,14 @@
       @submit="onSubmit" class="settlement">
       <van-button type="danger" @click="Delete()">删除</van-button>
       <van-checkbox v-model="allChecked" checked-color="#f11a27" @click="onCheckAll">全选</van-checkbox>
+      <!-- 选择支付方式下拉菜单 -->
+      <van-dropdown-menu active-color="#f11a27" :close-on-click-outside="false">
+        <van-dropdown-item v-model="value1" :options="option1"  />
+      </van-dropdown-menu>
+     
     </van-submit-bar>
+    <!-- <User /> -->
+      
   </div>
 </template>
 
@@ -61,6 +68,13 @@ onMounted(async () => {
   await loadCart();
   onCheck();
 });
+// 支付方式下拉菜单,
+const value1 = ref(0);
+const option1 = [
+  { text: "微信支付", value: 0 },
+  { text: "支付宝", value: 1 },
+  { text: "银行卡", value: 2 },
+];
 
 // 加载购物车数据
 const loadCart = async () => {
