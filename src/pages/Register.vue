@@ -89,6 +89,7 @@ const submitForm = async () => {
       username: user.username,
       avatar: user.avatar
     })
+    localStorage.setItem('isLogin', true)
     router.push({ name: 'user' })
   }
 }

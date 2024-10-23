@@ -33,6 +33,7 @@ import { login, getUser } from '../api'
 import useToken from '../stores/token'
 import useUser from '../stores/user'
 import { useRouter } from 'vue-router'
+import { showToast } from 'vant'
 
 const { updateToken } = useToken()
 const { updateUser } = useUser()
@@ -56,15 +57,23 @@ const passwordRules = ref([
 // 表单提交函数
 const submitForm = async values => {
   const data = await login(values)
+  console.log("data",data);
   if (data) {
     updateToken(data.token)
+    // 获取用户信息
     const user = await getUser()
+    console.log("用户信息：",user);
+    
     updateUser({
       isLogin: true,
       username: user.username,
       avatar: user.avatar
     })
+    //保存token
+    localStorage.setItem('isLogin', true)
     router.push({ name: 'user' })
+  }else {
+    showToast('登录失败')
   }
 }
 const onFailed = errorInfo => {

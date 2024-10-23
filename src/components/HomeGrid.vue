@@ -40,6 +40,9 @@ const menulist = [
 
   span {
     font-size: 12px;
+    color: #333;
+    //字体样式
+    font-weight: 600;
   }
 }
 </style>

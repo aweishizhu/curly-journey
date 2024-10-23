@@ -13,40 +13,40 @@
 const goodsList = [
   {
     retail_price: '99.00',
-    name: '零食大礼包',
-    goods_brief: '内有不同口味零食，满足你的味蕾',
+    name: '华为快充充电器',
+    goods_brief: '支持快充，充电更快速',
     list_pic_url: '/images/top1.jpg',
     tag: 'TOP1'
   },
   {
-    retail_price: '28.00',
-    origin_price: '58.00',
-    name: '巧克力礼盒',
-    goods_brief: '高品质巧克力，心意满满',
+    retail_price: '48.00',
+    origin_price: '68.00',
+    name: '华为手机保护膜',
+    goods_brief: '适用华为mate60rs/60/50/40/30/pro/P70pro/p60/50/40/30/pro/uv微晶固化膜nova12pro ...',
     list_pic_url: '/images/top2.jpg',
     tag: 'TOP2'
   },
   {
-    retail_price: '10',
-    origin_price: '13',
-    name: '素牛肉干',
-    goods_brief: '无添加剂，健康美味',
+    retail_price: '30',
+    origin_price: '40',
+    name: 'vivo iqoo 120w原装数据线',
+    goods_brief: '支持120w快充，充电更快速',
     list_pic_url: '/images/top3.jpg',
     tag: 'TOP3'
   },
   {
-    retail_price: '15.00',
-    origin_price: '20.00',
-    name: '每日坚果&&3袋',
-    goods_brief: '每日补充营养，健康生活',
+    retail_price: '60.00',
+    origin_price: '80.00',
+    name: '红米无线充电',
+    goods_brief: '支持无线充电，充电更快速',
     list_pic_url: '/images/top4.jpg',
     tag: 'TOP4'
   },
   {
-    retail_price: '5.00',
-    origin_price: '6.00',
-    name: '麻辣',
-    goods_brief: '麻辣鲜香，让你回味无穷',
+    retail_price: '59.00',
+    origin_price: '69.00',
+    name: '小米 Redmi充电宝',
+    goods_brief: '支持快充，充电更快速',
     list_pic_url: '/images/top5.jpg',
     tag: 'TOP5'
   }

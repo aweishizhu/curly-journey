@@ -54,15 +54,20 @@ import { showToast } from 'vant'
 const { removeToken } = useToken()
 const { user, removeUser } = useUser()
 
+
 // 退出登录
 const onLogout = async () => {
   removeToken()
   removeUser()
   router.push({ name: 'user' })
+   //把登录状态清空
+   localStorage.clear()
+  // 提示退出成功
   showToast({
     message: '退出成功',
     type: 'success'
   })
+ 
 }
 </script>
 

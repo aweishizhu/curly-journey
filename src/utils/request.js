@@ -11,12 +11,15 @@ const service = axios.create({ baseURL })
 // 请求拦截器
 service.interceptors.request.use(config => {
   const { token } = useToken() // 添加了一个JWT令牌到请求头中。
+  console.log("请求前token:",token);
   showLoadingToast({
     message: '加载中...',
     forbidClick: true,
     loadingType: 'spinner'
   })
   if (token) {
+    
+    
     config.headers.jwt = token
   }
   return config

@@ -10,8 +10,8 @@
 
 <script setup>
 const banner = [
-  '/images/banner1.webp',
-  '/images/banner2.webp',
+  '/images/banner1.jpg',
+  '/images/banner2.jpg',
 ]
 </script>
 <style lang="less" scoped>
@@ -20,6 +20,7 @@ const banner = [
 
   img {
     width: 100%;
+    
   }
 }
 </style>

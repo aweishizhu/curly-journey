@@ -98,9 +98,13 @@ import { useRouter } from 'vue-router'
 const router = useRouter()
 
 const sorry = () => {
-  showToast('暂无后续逻辑~')
+  const isLoggedIn = localStorage.getItem('isLogin') === 'true';
+if (!isLoggedIn) {
+  showToast("请先登录");
+  return;
 }
-
+ showToast("结算成功")
+}
 const onClickCart = () => {
   router.push({ name: 'cart' })
 }

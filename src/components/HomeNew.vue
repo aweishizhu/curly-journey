@@ -51,8 +51,8 @@ const newList = [
       width: 49.5%;
 
       img {
-        width: 100%;
-        height: 80%;
+        width: 90%;
+        height: 70%;
       }
 
       p {

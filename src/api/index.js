@@ -24,6 +24,11 @@ export function login(data) {
   return request.post('/home/login', data)
 }
 
+// 注册接口
+export function register(data) {
+  return request.post('/home/register', data)
+}
+
 // 用户信息接口
 export function getUser() {
   return request.get('/home/user')
